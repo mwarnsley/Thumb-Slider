@@ -59,3 +59,50 @@ header{
 	overflow:hidden;
 	padding-top:20px;
 }
+
+.slide{
+	float:left !important;
+}
+
+#menu{
+	height:45px;
+}
+
+#menu ul{
+	margin:0;
+	padding:0;
+}
+
+#menu li{
+	width:60px;
+	margin-left:-4px;
+	display:inline-block;
+	list-style:none;
+	height:45px;
+	overflow:hidden;
+}
+
+#menu li.active,#menu li.active:hover{
+	background:url(../img/active_bg.png) no-repeat;
+}
+
+#menu li.active{
+	cursor:default;
+}
+
+#menu .sep{
+	width:2px;
+	background:url(../img/seperator.png) no-repeat right;
+	margin-right:-2px;
+}
+
+#menu li a{
+	display:block;
+	background:url(../img/seperator.png) no-repeat right;
+	height:35px;
+	padding-top:10px;
+}
+
+#menu a img{
+	border:none;
+}
