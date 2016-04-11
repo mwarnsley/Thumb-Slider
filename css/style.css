@@ -26,3 +26,36 @@ a, a:visited{
 a:hover{
 	text-decoration:underline;
 }
+
+p{
+	padding-top:10px;
+	text-align:center;
+}
+
+header{
+	background:url(../img/panel.jpg) repeat-x bottom center #ffffff;
+	height:30px;
+	padding-top:10px;
+	border-bottom:1px solid #ccc;
+}
+
+#slider{
+	-moz-box-shadow:0 0 3px #aaaaaa;
+	-webkit-box-shadow:0 0 3px #aaaaaa;
+	box-shadow:0 0 3px #aaaaaa;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	
+	background:url(../img/panel.jpg) repeat-x bottom center #ffffff;
+	width:900px;
+	overflow:hidden;
+}
+
+#slides{
+	height:240px;
+	width:900px;
+	overflow:hidden;
+	padding-top:20px;
+}
